@@ -1,0 +1,23 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: cloud-eureka
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # false 表示不注册
+    register-with-eureka: false
+    # false 表示自己是注册中心
+    fetch-registry: false
+    service-url:
+      # 注册服务地址
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+devtools:
+  livereload:
+    enabled: true
+    port: ${server.port}
+  restart:
+    enabled: true

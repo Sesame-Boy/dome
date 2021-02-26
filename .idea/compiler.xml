@@ -8,7 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment" />
+        <module name="cloud-consumer-order" />
+        <module name="cloud-eureka" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-eureka" options="" />
+    </option>
   </component>
 </project>
