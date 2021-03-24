@@ -9,9 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-provider-payment" />
         <module name="cloud-consumer-order" />
+        <module name="cloud-mybatis-plususer" />
         <module name="cloud-eureka" />
+        <module name="cloud-mybatisplus-user" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-mybatis-plususer" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
