@@ -7,15 +7,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-provider-payment" />
-        <module name="cloud-consumer-order" />
         <module name="cloud-mybatis-plususer" />
-        <module name="cloud-eureka" />
+        <module name="cloud-code-generator" />
         <module name="cloud-mybatisplus-user" />
+        <module name="cloud-consumer-order" />
+        <module name="cloud-provider-payment" />
+        <module name="cloud-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-ddd" target="1.8" />
+      <module name="cloud-genuser" target="1.8" />
       <module name="cloud-mybatis-plususer" target="1.8" />
+      <module name="cloud-nodeinfo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

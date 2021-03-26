@@ -9,7 +9,10 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-ddd/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-genuser/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-mybatis-plususer/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-nodeinfo/pom.xml" />
       </set>
     </option>
   </component>

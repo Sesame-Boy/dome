@@ -1,0 +1,24 @@
+server:
+  port: 10000
+spring:
+  application:
+    name: cloud-code-generator
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?useUnicode=true&characterEncoding=utf-8
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+
+devtools:
+  livereload:
+    enabled: true
+    port: ${server.port}
+  restart:
+    enabled: true
