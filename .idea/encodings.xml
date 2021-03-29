@@ -4,11 +4,9 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-code-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consumer-order" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-ddd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-dictionary-manage" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-genuser" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-mybatisplus-user" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-nodeinfo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

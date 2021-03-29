@@ -13,6 +13,7 @@
       <module>cloud-eureka</module>
       <module>cloud-mybatisplus-user</module>
       <module>cloud-code-generator</module>
+        <module>cloud-dictionary-manage</module>
     </modules>
     <packaging>pom</packaging>
   <!--统一管理jar包版本-->

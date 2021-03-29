@@ -11,4 +11,4 @@
     <select id="getPaymentById" parameterType="Long" resultMap="BaseResultMap">
         select * from payment where id=#{id};
     </select>
-</mapper>
+</mapper> 
