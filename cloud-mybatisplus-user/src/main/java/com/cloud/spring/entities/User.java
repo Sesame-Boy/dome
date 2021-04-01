@@ -11,8 +11,4 @@ public class User {
     @TableId(type = IdType.AUTO)
     private Long id;
     private String name;
-
-    public void setName(String s) {
-        this.name=s;
-    }
 }

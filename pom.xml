@@ -14,6 +14,7 @@
       <module>cloud-mybatisplus-user</module>
       <module>cloud-code-generator</module>
         <module>cloud-dictionary-manage</module>
+      <module>cloud-gateway</module>
     </modules>
     <packaging>pom</packaging>
   <!--统一管理jar包版本-->

@@ -1,0 +1,35 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: cloud-gateway
+  cloud:
+    gateway:
+      loadbalancer:
+        use404: true
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+      - id: cloud-dictionary-manage
+        uri: lb://cloud-dictionary-manage
+        predicates:
+        - Path=/dictionary/**
+      - id: cloud-mybatisplus-user
+        uri: lb://cloud-mybatisplus-user
+        predicates:
+        - Path=/user/**
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:9000/eureka/
+
+devtools:
+  livereload:
+    enabled: true
+    port: ${server.port}
+  restart:
+    enabled: true
